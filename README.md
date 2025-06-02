@@ -15,6 +15,7 @@ Please implement the following (focus on logic and structure, not perfect visual
    - Load and display the mock transaction list from `data/transactions.json`
    - Group transactions by `category`
    - Show total spending per category and total spent overall
+   - [optional] Use a **virtualized list** (e.g. `FlatList`) for performance if the dataset is large
 
 2. **Budget Input**
 
@@ -32,6 +33,7 @@ Please implement the following (focus on logic and structure, not perfect visual
 - Clean structure (components, state, screens, etc.)
 - Clear code and reasonable UI
 - Thoughtful trade-offs, even if incomplete
+- [Optional] Use of **virtualized rendering** for large lists
 - Bonus: typed code, state management patterns, or extra polish
 
 ---
